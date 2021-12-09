@@ -1,5 +1,7 @@
 # gitignore
-ほぼ自分用の汎用的なgitignore
+ほぼ自分用の汎用的なgitignore  
+* 追加時の参照  
+(github/gitignore)[https://github.com/github/gitignore]
 
 ## platform
 - [x] macOS
