@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+TARGET=".gitignore"
+ 
+if [ -e $TARGET ]; then
+  echo ".gitignore file exists."
+  exit 1
+fi
+
+curl -s https://raw.githubusercontent.com/k1rnt/gitignore/main/.gitignore > .gitignore
+echo "👍 Downloaded k1rnt/gitignore"
